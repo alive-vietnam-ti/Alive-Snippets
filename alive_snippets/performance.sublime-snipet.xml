@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+\$timeLoad = explode(' ', microtime());
+\$startLoad = \$timeLoad[1] + \$timeLoad[0];
+?>
+${1:this}
+<?php
+\$timeLoad = explode(' ', microtime());
+\$finishLoad = \$timeLoad[1] + \$timeLoad[0];
+\$total_time = round((\$finishLoad - \$startLoad), 4);
+echo "\n<!--\n";
+if(function_exists('get_num_queries')) echo "get_num_queries: ".get_num_queries()."\n";
+echo "memory_get_usage: ".number_format(memory_get_usage())." Bytes\n";
+echo "generated in {\$total_time}(s)\n";
+echo "-->";
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>performance</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.php</scope>
+</snippet>

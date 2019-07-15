@@ -1,0 +1,6 @@
+<snippet>
+<content><![CDATA[
+echo '<pre class="alive">'; print_r($1); echo '</pre>';
+]]></content>
+<tabTrigger>prepr</tabTrigger>
+</snippet>
