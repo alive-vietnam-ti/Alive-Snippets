@@ -7,10 +7,10 @@
         \/                     \/             \/          \/     \/   |__|   |__|        \/          \/ 
 ```
 
-Alive Web Vietnam Company Snippets for Sublime Text
+Alive Web Vietnam Company Snippets and Keymaps for Sublime Text
 ====================================================================
 
-This is a collection of Sublime Text snippets for the [Alive Web Vietnam Company](https://alive-web.vn/)
+This is a collection of Sublime Text snippets and Keymaps for the [Alive Web Vietnam Company](https://alive-web.vn/)
 
 ## Installation
 
@@ -35,41 +35,54 @@ Mac users: Library/Application Support/Sublime Text/Packages
 |-------|-------|------|
 | `01` | `picsource` | `<picture><source srcset="${2}" media="(max-width: 767px)"><source srcset="${1}"><img src="${1}" alt="${3}"></picture>` |
 | `02` | `initowlcarousel` | `Insert full install owlcarousel library into html/php file` |
+| `03` | `wppagenavi` | `Insert full layout html of wp-pagenavi into html/php file` |
 
 
 ### SCSS/CSS Snippets
 |STT|Snippet|Output|
 |-------|-------|------|
-| `03` | `minscreen` | `@include min-screen(${1:768}px) {${2}}` |
-| `04` | `maxscreen` | `@include max-screen(${1:767}px) {${2}}` |
+| `04` | `minscreen` | `@include min-screen(${1:768}px) {${2}}` |
+| `05` | `maxscreen` | `@include max-screen(${1:767}px) {${2}}` |
 
 
 ### JS Snippets
 |STT|Snippet|Output|
 |-------|-------|------|
-| `05` | `csl` | `console.log(${1});` |
-| `06` | `rf` | `return false;` |
-| `07` | `owlcarousel` | `$(".js-carousel")` |
-| `08` | `matchheight` | `$(".js-matchHeight").matchHeight();` |
-| `09` | `smoothscroll` | `$(".js-smoothscroll").smoothscroll();` |
+| `06` | `csl` | `console.log(${1});` |
+| `07` | `rf` | `return false;` |
+| `08` | `owlcarousel` | `$(".js-carousel")` |
+| `09` | `matchheight` | `$(".js-matchHeight").matchHeight();` |
+| `10` | `smoothscroll` | `$(".js-smoothscroll").smoothscroll();` |
 
 
 ### PHP Snippets
 |STT|Snippet|Output|
 |-------|-------|------|
-| `10` | `showerrors` | `ini_set('display_errors', 1); ini_set('display_startup_errors', 1); error_reporting(E_ALL); ?>` |
-| `11` | `performance` | `Insert code to measure website (php) performance` |
-| `12` | `prepr` | `echo '<pre>'; print_r($1); echo '</pre>'; ?>` |
-| `13` | `hidprint` | `echo '<!-- alive print '; print_r($1); echo ' -->';` |
-| `14` | `catchthatimage` | `catch_that_image($noimg = true);` |
-| `15` | `getfirstimage` | `get_first_image($content, $noimg = true);` |
-| `16` | `currentpageurl` | `curPageURL();` |
-| `17` | `cutstring` | `cutString($str, $len, $moreStr = "...");` |
-| `18` | `getarrurl` | `getArrUrl($_GET['args']);` |
-| `19` | `getcurl` | `get_curl($url);` |
-| `20` | `thumbcrop` | `thumbCrop($img, $w, $h, $zc=1, $a=false, $cc=false);` |
-| `21` | `uaclass` | `Insert ua.class code` |
-| `22` | `wpposttypearchive` | `wp_post_type_archive($post_type, $home_url="", $havecount=false);` |
+| `11` | `showerrors` | `ini_set('display_errors', 1); ini_set('display_startup_errors', 1); error_reporting(E_ALL); ?>` |
+| `12` | `performance` | `Insert code to measure website (php) performance` |
+| `13` | `prepr` | `echo '<pre>'; print_r($1); echo '</pre>'; ?>` |
+| `14` | `hidprint` | `echo '<!-- alive print '; print_r($1); echo ' -->';` |
+| `15` | `catchthatimage` | `catch_that_image($noimg = true);` |
+| `16` | `getfirstimage` | `get_first_image($content, $noimg = true);` |
+| `17` | `currentpageurl` | `curPageURL();` |
+| `18` | `cutstring` | `cutString($str, $len, $moreStr = "...");` |
+| `19` | `getarrurl` | `getArrUrl($_GET['args']);` |
+| `20` | `getcurl` | `get_curl($url);` |
+| `21` | `thumbcrop` | `thumbCrop($img, $w, $h, $zc=1, $a=false, $cc=false);` |
+| `22` | `uaclass` | `Insert ua.class code` |
+| `23` | `wpposttypearchive` | `wp_post_type_archive($post_type, $home_url="", $havecount=false);` |
+
+## Keymaps
+
+|STT|Keymap|Function|
+|-------|-------|------|
+| `01` | `super+shift+enter` | `<br>` |
+| `02` | `super+b` | `<strong>${0:$SELECTION}</strong>` |
+| `03` | `ctrl+super+b` | `changing build shortcut` |
+| `04` | `command+shift+down` | `goto definition` |
+| `05` | `command+shift+r` | `reveal in side bar` |
+| `06` | `super+shift+c` | `toggle side bar` |
+| `07` | `super+shift+x` | `toggle minimap` |
 
 --------------------------
 

@@ -1,0 +1,22 @@
+<snippet>
+  <content><![CDATA[
+<div class="wp-pagenavi">
+  <span class="pages">Page 3 of 22</span>
+  <a class="first" href="">First</a>
+  <a class="previouspostslink" rel="prev" href="">«</a>
+  <span class="extend">...</span>
+  <a class="page smaller" title="Page 1" href="">1</a>
+  <a class="page smaller" title="Page 2" href="">2</a>
+  <span aria-current="page" class="current">3</span>
+  <a class="page larger" title="Page 4" href="">4</a>
+  <a class="page larger" title="Page 5" href="">5</a>
+  <span class="extend">...</span>
+  <a class="nextpostslink" rel="next" href="">»</a>
+  <a class="last" href="">Last</a>
+</div>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>wppagenavi</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.html</scope> -->
+</snippet>
