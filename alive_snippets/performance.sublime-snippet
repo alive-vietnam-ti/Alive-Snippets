@@ -3,7 +3,7 @@
 \$timeLoad = explode(' ', microtime());
 \$startLoad = \$timeLoad[1] + \$timeLoad[0];
 ?>
-${1:this}
+${1:Your source code}
 <?php
 \$timeLoad = explode(' ', microtime());
 \$finishLoad = \$timeLoad[1] + \$timeLoad[0];

@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+require_once 'ua.class.php';
+\$ua = new UserAgent();
+if(\$ua->set() === 'tablet') {${1:Wnat to do something with tablet?}}
+elseif(\$ua->set() === 'mobile') {${2:Wnat to do something with mobile?}}
+else {${3:Wnat to do something else?}}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>uaclass</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.php</scope>
+</snippet>

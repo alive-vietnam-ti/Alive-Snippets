@@ -1,0 +1,22 @@
+<snippet>
+  <content><![CDATA[
+<link rel="stylesheet" href="<?php echo APP_ASSETS ?>css/lib/owl.carousel.min.css">
+
+<div class="js-carousel">
+  <div> Your Content </div>
+  <div> Your Content </div>
+  <div> Your Content </div>
+</div>
+
+<script src="<?php echo APP_ASSETS ?>js/lib/owl.carousel.min.js"></script>
+<script>
+\$(document).ready(function(){
+  \$(".js-carousel").addClass("owl-carousel").owlCarousel();
+});
+</script>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>initowlcarousel</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.html</scope> -->
+</snippet>

@@ -1,13 +1,9 @@
 <snippet>
   <content><![CDATA[
-<picture>
-  <source srcset="${2}" media="(max-width: 767px)">
-  <source srcset="${1}">
-  <img src="${1}" alt="${3}">
-</picture>
+\$("${1:.js-smoothscroll}").smoothscroll();
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>picsource</tabTrigger>
+  <tabTrigger>smoothscroll</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <!-- <scope>source.html</scope> -->
+  <scope>source.js</scope>
 </snippet>

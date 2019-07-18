@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+<picture>
+  <source srcset="${2:Url image for SP}" media="(max-width: 767px)">
+  <source srcset="${1:Url image for PC}">
+  <img src="${1:Url image for PC}" alt="${3}">
+</picture>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>picsource</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.html</scope> -->
+</snippet>

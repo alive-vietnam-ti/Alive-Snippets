@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+thumbCrop(${1:\$img}, ${2:\$w}, ${3:\$h}, ${4:\$zc=1}, ${5:\$a=false}, ${6:\$cc=false});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>thumbcrop</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.php</scope>
+</snippet>

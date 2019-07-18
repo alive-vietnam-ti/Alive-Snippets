@@ -1,0 +1,25 @@
+<snippet>
+  <content><![CDATA[
+\$("${1:.js-carousel}").addClass("owl-carousel").owlCarousel({
+  loop: ${2:false},
+  margin: ${3:0},
+  autoWidth: ${4:false},
+  startPosition: ${5:0},
+  smartSpeed: ${6:250},
+  responsive: {
+    // breakpoint from 0 up
+    0: {
+      items: ${7:1},
+    },
+    // breakpoint from 768 up
+    768: {
+      items: ${8:3},
+    }
+  },
+});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>owlcarousel</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+</snippet>

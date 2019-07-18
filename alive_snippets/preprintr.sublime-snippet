@@ -1,6 +1,6 @@
 <snippet>
 <content><![CDATA[
-echo '<pre class="alive">'; print_r($1); echo '</pre>';
+echo '<pre style="background: #222; color: rgba(49,207,179); padding: 10px; position: relative; z-index: 9999; border-bottom: 1px solid #000; font-size: 12px; margin: 10px; overflow-x: scroll; white-space: pre-wrap; border: 0;">'; print_r($1); echo '</pre>';
 ]]></content>
 <tabTrigger>prepr</tabTrigger>
 </snippet>
