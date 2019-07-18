@@ -71,6 +71,7 @@ Mac users: Library/Application Support/Sublime Text/Packages
 | `21` | `uaclass` | `Insert ua.class code` |
 | `22` | `wpposttypearchive` | `wp_post_type_archive($post_type, $home_url="", $havecount=false);` |
 
-====================================================================
+--------------------------
+
 Enjoy and have a great day!
 techteam[at]alive-vietnam
