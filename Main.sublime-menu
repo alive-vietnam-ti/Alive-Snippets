@@ -12,10 +12,10 @@
                 "children":
                 [
                     {
-                        "caption": "alive-sublime-snippet",
+                        "caption": "Alive Snippets",
                         "children":
                         [
-                            { "command": "open_file", "args": {"file": "${packages}/alive-sublime-snippets/AliveSnippet.sublime-settings"}, "caption": "Settings" },
+                            { "command": "open_file", "args": {"file": "${packages}/Alive Snippets/AliveSnippet.sublime-settings"}, "caption": "Settings" },
                         ]
                     }
                 ]

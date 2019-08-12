@@ -3,7 +3,7 @@
         "caption": "Preferences: AliveSnippet disable snippets",
         "command": "open_file", "args":
         {
-            "file": "${packages}/alive-sublime-snippets/AliveSnippet.sublime-settings"
+            "file": "${packages}/Alive Snippets/AliveSnippet.sublime-settings"
         }
     }
 ]

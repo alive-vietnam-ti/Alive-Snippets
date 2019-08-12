@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+@include aspect-ratio(${1:width}, ${2:height});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>iar</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.scss</scope>
+</snippet>

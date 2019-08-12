@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+@include multiLineEllipsis(${1:linecount});
+@include multiLineEllipsisForFF(${2:lineHeight}, ${1:linecount}, ${3:bgColor});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>imultilineellipsis</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.scss</scope>
+</snippet>
