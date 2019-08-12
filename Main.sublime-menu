@@ -1,0 +1,25 @@
+[
+    {
+        "caption": "Preferences",
+        "mnemonic": "n",
+        "id": "preferences",
+        "children":
+        [
+            {
+                "caption": "Package Settings",
+                "mnemonic": "P",
+                "id": "package-settings",
+                "children":
+                [
+                    {
+                        "caption": "alive-sublime-snippet",
+                        "children":
+                        [
+                            { "command": "open_file", "args": {"file": "${packages}/alive-sublime-snippets/AliveSnippet.sublime-settings"}, "caption": "Settings" },
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

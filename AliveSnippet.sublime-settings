@@ -1,0 +1,27 @@
+{
+  "snippets": {
+    "catchthatimage": true,
+    "csl": true,
+    "currentpageurl": true,
+    "cutstring": true,
+    "getarrurl": true,
+    "getcurl": true,
+    "getfirstimage": true,
+    "hiddenprint": true,
+    "initowlcarousel": true,
+    "matchheight": true,
+    "maxscreen": true,
+    "minscreen": true,
+    "owlcarousel": true,
+    "performance": true,
+    "picsource": true,
+    "preprintr": true,
+    "rf": true,
+    "showerrors": true,
+    "smoothscroll": true,
+    "thumbcrop": true,
+    "uaclass": true,
+    "wppagenavi": true,
+    "wpposttypearchive": true,
+  }
+}
