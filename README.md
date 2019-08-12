@@ -1,16 +1,27 @@
 ```
-   _____               .____    .__                 _________      .__                      __          
-  /  _  \      .__     |    |   |__|__  __ ____    /   _____/ ____ |__|_____ ______   _____/  |_  ______
- /  /_\  \   __|  |___ |    |   |  \  \/ // __ \   \_____  \ /    \|  \____ \\____ \_/ __ \   __\/  ___/
-/    |    \ /__    __/ |    |___|  |\   /\  ___/   /        \   |  \  |  |_> >  |_> >  ___/|  |  \___ \ 
-\____|__  /    |__|    |_______ \__| \_/  \___  > /_______  /___|  /__|   __/|   __/ \___  >__| /____  >
-        \/                     \/             \/          \/     \/   |__|   |__|        \/          \/ 
+   _____  .__  .__                 _________      .__                      __          
+  /  _  \ |  | |__|__  __ ____    /   _____/ ____ |__|_____ ______   _____/  |_  ______
+ /  /_\  \|  | |  \  \/ // __ \   \_____  \ /    \|  \____ \\____ \_/ __ \   __\/  ___/
+/    |    \  |_|  |\   /\  ___/   /        \   |  \  |  |_> >  |_> >  ___/|  |  \___ \ 
+\____|__  /____/__| \_/  \___  > /_______  /___|  /__|   __/|   __/ \___  >__| /____  >
+        \/                   \/          \/     \/   |__|   |__|        \/          \/ 
 ```
 
-Alive Web Vietnam Company Snippets and Keymaps for Sublime Text version 1.0.5
+Alive Web Vietnam Company Snippets and Keymaps for Sublime Text v1.0.6
 ====================================================================
 
 This is a collection of Sublime Text snippets and Keymaps for the [Alive Web Vietnam Company](https://alive-web.vn/)
+Feel free to Fork the snippet repo and submit a
+pull request: https://github.com/alivevietnam/alive-sublime-snippets
+
+## Change logs:
+
+### 1.0.6:
+
+- Add more 8 snippets for template mixins scss
+- Add settings features, you can disable snippets what you don't need
+- Add menu commands settings
+- Add main menu settings
 
 ## Installation
 
@@ -43,34 +54,43 @@ Mac users: Library/Application Support/Sublime Text/Packages
 |-------|-------|------|
 | `04` | `minscreen` | `@include min-screen(${1:768}px) {${2}}` |
 | `05` | `maxscreen` | `@include max-screen(${1:767}px) {${2}}` |
+| `06` | `iar` | `@include aspect-ratio(${1:width}, ${2:height});` |
+| `07` | `iborderradius` | `@include border-radius(${1:radius}, ${2:''});` |
+| `08` | `iclearfix` | `@include clearfix();` |
+| `09` | `ifz` | `@include font-size(${1:14});` |
+| `10` | `imultilineellipsis` | `@include multiLineEllipsis(${1:linecount});` |
+| `11` | `ipc` | `@include PC {${1}}` |
+| `12` | `isp` | `@include SP {${1}}` |
+| `13` | `itransform` | `@include transform_c(${1:content});` |
+| `14` | `itransition` | `@include transition_c(${1:content}, ${2:''});` |
 
 
 ### JS Snippets
 |STT|Snippet|Output|
 |-------|-------|------|
-| `06` | `csl` | `console.log(${1});` |
-| `07` | `rf` | `return false;` |
-| `08` | `owlcarousel` | `$(".js-carousel")` |
-| `09` | `matchheight` | `$(".js-matchHeight").matchHeight();` |
-| `10` | `smoothscroll` | `$(".js-smoothscroll").smoothscroll();` |
+| `15` | `csl` | `console.log(${1});` |
+| `16` | `rf` | `return false;` |
+| `17` | `owlcarousel` | `$(".js-carousel")` |
+| `18` | `matchheight` | `$(".js-matchHeight").matchHeight();` |
+| `19` | `smoothscroll` | `$(".js-smoothscroll").smoothscroll();` |
 
 
 ### PHP Snippets
 |STT|Snippet|Output|
 |-------|-------|------|
-| `11` | `showerrors` | `ini_set('display_errors', 1); ini_set('display_startup_errors', 1); error_reporting(E_ALL); ?>` |
-| `12` | `performance` | `Insert code to measure website (php) performance` |
-| `13` | `prepr` | `echo '<pre>'; print_r($1); echo '</pre>'; ?>` |
-| `14` | `hidprint` | `echo '<!-- alive print '; print_r($1); echo ' -->';` |
-| `15` | `catchthatimage` | `catch_that_image($noimg = true);` |
-| `16` | `getfirstimage` | `get_first_image($content, $noimg = true);` |
-| `17` | `currentpageurl` | `curPageURL();` |
-| `18` | `cutstring` | `cutString($str, $len, $moreStr = "...");` |
-| `19` | `getarrurl` | `getArrUrl($_GET['args']);` |
-| `20` | `getcurl` | `get_curl($url);` |
-| `21` | `thumbcrop` | `thumbCrop($img, $w, $h, $zc=1, $a=false, $cc=false);` |
-| `22` | `uaclass` | `Insert ua.class code` |
-| `23` | `wpposttypearchive` | `wp_post_type_archive($post_type, $home_url="", $havecount=false);` |
+| `20` | `showerrors` | `ini_set('display_errors', 1); ini_set('display_startup_errors', 1); error_reporting(E_ALL); ?>` |
+| `21` | `performance` | `Insert code to measure website (php) performance` |
+| `22` | `prepr` | `echo '<pre>'; print_r($1); echo '</pre>'; ?>` |
+| `23` | `hidprint` | `echo '<!-- alive print '; print_r($1); echo ' -->';` |
+| `24` | `catchthatimage` | `catch_that_image($noimg = true);` |
+| `25` | `getfirstimage` | `get_first_image($content, $noimg = true);` |
+| `26` | `currentpageurl` | `curPageURL();` |
+| `27` | `cutstring` | `cutString($str, $len, $moreStr = "...");` |
+| `28` | `getarrurl` | `getArrUrl($_GET['args']);` |
+| `29` | `getcurl` | `get_curl($url);` |
+| `30` | `thumbcrop` | `thumbCrop($img, $w, $h, $zc=1, $a=false, $cc=false);` |
+| `31` | `uaclass` | `Insert ua.class code` |
+| `32` | `wpposttypearchive` | `wp_post_type_archive($post_type, $home_url="", $havecount=false);` |
 
 ## Keymaps
 

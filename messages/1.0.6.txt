@@ -5,7 +5,7 @@
 \____|__  /____/__| \_/  \___  > /_______  /___|  /__|   __/|   __/ \___  >__| /____  >
         \/                   \/          \/     \/   |__|   |__|        \/          \/ 
 
-Thanks for installing Alive Snippets version 1.0.6!
+Thanks for installing Alive Snippets version v1.0.6!
 
 Change logs:
 1.0.6:
@@ -52,11 +52,11 @@ pull request: https://github.com/alivevietnam/alive-sublime-snippets
 ┏━━━━┳━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 ┃STT ┃ Snippet             ┃ Output                                                                                           ┃
 ┣━━━━╋━━━━━━━━━━━━━━━━━━━━-╋━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
-┃ 14 ┃ csl                 ┃ console.log(${1});                                                                               ┃
-┃ 15 ┃ rf                  ┃ return false;                                                                                    ┃
-┃ 16 ┃ owlcarousel         ┃ $(".js-carousel")                                                                                ┃
-┃ 17 ┃ matchheight         ┃ $(".js-matchHeight").matchHeight();                                                              ┃
-┃ 18 ┃ smoothscroll        ┃ $(".js-smoothscroll").smoothscroll();                                                            ┃
+┃ 15 ┃ csl                 ┃ console.log(${1});                                                                               ┃
+┃ 16 ┃ rf                  ┃ return false;                                                                                    ┃
+┃ 17 ┃ owlcarousel         ┃ $(".js-carousel")                                                                                ┃
+┃ 18 ┃ matchheight         ┃ $(".js-matchHeight").matchHeight();                                                              ┃
+┃ 19 ┃ smoothscroll        ┃ $(".js-smoothscroll").smoothscroll();                                                            ┃
 ┖━━━━┻━━━━━━━━━━━━━━━━━━━━-┻━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
 
@@ -64,19 +64,19 @@ pull request: https://github.com/alivevietnam/alive-sublime-snippets
 ┏━━━━┳━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 ┃STT ┃ Snippet             ┃ Output                                                                                           ┃
 ┣━━━━╋━━━━━━━━━━━━━━━━━━━━-╋━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
-┃ 19 ┃ showerrors          ┃ ini_set('display_errors', 1); ini_set('display_startup_errors', 1); error_reporting(E_ALL); ?>   ┃
-┃ 20 ┃ performance         ┃ Insert code to measure website (php) performance                                                 ┃
-┃ 21 ┃ prepr               ┃ echo '<pre>'; print_r($1); echo '</pre>'; ?>                                                     ┃
-┃ 22 ┃ hidprint            ┃ echo '<!-- alive print '; print_r($1); echo ' -->';                                              ┃
-┃ 23 ┃ catchthatimage      ┃ catch_that_image($noimg = true);                                                                 ┃
-┃ 24 ┃ getfirstimage       ┃ get_first_image($content, $noimg = true);                                                        ┃
-┃ 25 ┃ currentpageurl      ┃ curPageURL();                                                                                    ┃
-┃ 26 ┃ cutstring           ┃ cutString($str, $len, $moreStr = "...");                                                         ┃
-┃ 27 ┃ getarrurl           ┃ getArrUrl($_GET['args']);                                                                        ┃
-┃ 28 ┃ getcurl             ┃ get_curl($url);                                                                                  ┃
-┃ 29 ┃ thumbcrop           ┃ thumbCrop($img, $w, $h, $zc=1, $a=false, $cc=false);                                             ┃
-┃ 30 ┃ uaclass             ┃ Insert ua.class code                                                                             ┃
-┃ 31 ┃ wpposttypearchive   ┃ wp_post_type_archive($post_type, $home_url="", $havecount=false);                                ┃
+┃ 20 ┃ showerrors          ┃ ini_set('display_errors', 1); ini_set('display_startup_errors', 1); error_reporting(E_ALL); ?>   ┃
+┃ 21 ┃ performance         ┃ Insert code to measure website (php) performance                                                 ┃
+┃ 22 ┃ prepr               ┃ echo '<pre>'; print_r($1); echo '</pre>'; ?>                                                     ┃
+┃ 23 ┃ hidprint            ┃ echo '<!-- alive print '; print_r($1); echo ' -->';                                              ┃
+┃ 24 ┃ catchthatimage      ┃ catch_that_image($noimg = true);                                                                 ┃
+┃ 25 ┃ getfirstimage       ┃ get_first_image($content, $noimg = true);                                                        ┃
+┃ 26 ┃ currentpageurl      ┃ curPageURL();                                                                                    ┃
+┃ 27 ┃ cutstring           ┃ cutString($str, $len, $moreStr = "...");                                                         ┃
+┃ 28 ┃ getarrurl           ┃ getArrUrl($_GET['args']);                                                                        ┃
+┃ 29 ┃ getcurl             ┃ get_curl($url);                                                                                  ┃
+┃ 30 ┃ thumbcrop           ┃ thumbCrop($img, $w, $h, $zc=1, $a=false, $cc=false);                                             ┃
+┃ 31 ┃ uaclass             ┃ Insert ua.class code                                                                             ┃
+┃ 32 ┃ wpposttypearchive   ┃ wp_post_type_archive($post_type, $home_url="", $havecount=false);                                ┃
 ┖━━━━┻━━━━━━━━━━━━━━━━━━━━-┻━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
 
