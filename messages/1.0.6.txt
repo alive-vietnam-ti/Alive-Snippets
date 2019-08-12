@@ -5,10 +5,10 @@
 \____|__  /____/__| \_/  \___  > /_______  /___|  /__|   __/|   __/ \___  >__| /____  >
         \/                   \/          \/     \/   |__|   |__|        \/          \/ 
 
-Thanks for installing Alive Snippets version 1.0.5!
+Thanks for installing Alive Snippets version 1.0.6!
 
 Change logs:
-1.0.5:
+1.0.6:
 - Add more 8 snippets for template mixins scss
 - Add settings features, you can disable snippets what you don't need
 - Add menu commands settings
