@@ -7,7 +7,7 @@
         \/                   \/          \/     \/   |__|   |__|        \/          \/ 
 ```
 
-Alive Web Vietnam Company Snippets and Keymaps for Sublime Text v1.0.8
+Alive Web Vietnam Company Snippets and Keymaps for Sublime Text v1.0.9
 ====================================================================
 
 This is a collection of Sublime Text snippets and Keymaps for the [Alive Web Vietnam Company](https://alive-web.vn/)
@@ -15,6 +15,10 @@ Feel free to Fork the snippet repo and submit a
 pull request: https://github.com/alivevietnam/alive-sublime-snippets
 
 ## Change logs:
+
+### 1.0.9:
+
+- Refectoring preprintr
 
 ### 1.0.8:
 
