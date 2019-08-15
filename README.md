@@ -19,11 +19,11 @@ pull request: https://github.com/alivevietnam/alive-sublime-snippets
 ## Change logs:
 
 ### 1.0.11:
-- Add more 4 snippets for font family:
-  • Hiragino Gothic (iffn)
-  • Hiragino Mincho (iffm)
-  • Yu Gothic (iffyg)
-  • Yu Mincho (iffym)
+Add more 4 snippets for font family:
+- Hiragino Gothic (iffn)
+- Hiragino Mincho (iffm)
+- Yu Gothic (iffyg)
+- Yu Mincho (iffym)
 
 ### 1.0.9:
 
