@@ -7,7 +7,7 @@
         \/                   \/          \/     \/   |__|   |__|        \/          \/ 
 ```
 
-Alive Web Vietnam Company Snippets and Keymaps for Sublime Text v1.0.10
+Alive Web Vietnam Company Snippets and Keymaps for Sublime Text v1.0.11
 ====================================================================
 
 This is a collection of Sublime Text snippets and Keymaps for the [Alive Web Vietnam Company](https://alive-web.vn/)
@@ -18,7 +18,7 @@ pull request: https://github.com/alivevietnam/alive-sublime-snippets
 
 ## Change logs:
 
-### 1.0.10:
+### 1.0.11:
 - Add more 4 snippets for font family:
   • Hiragino Gothic (iffn)
   • Hiragino Mincho (iffm)
