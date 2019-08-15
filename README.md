@@ -7,14 +7,23 @@
         \/                   \/          \/     \/   |__|   |__|        \/          \/ 
 ```
 
-Alive Web Vietnam Company Snippets and Keymaps for Sublime Text v1.0.9
+Alive Web Vietnam Company Snippets and Keymaps for Sublime Text v1.0.10
 ====================================================================
 
 This is a collection of Sublime Text snippets and Keymaps for the [Alive Web Vietnam Company](https://alive-web.vn/)
+
 Feel free to Fork the snippet repo and submit a
+
 pull request: https://github.com/alivevietnam/alive-sublime-snippets
 
 ## Change logs:
+
+### 1.0.10:
+- Add more 4 snippets for font family:
+  • Hiragino Gothic (iffn)
+  • Hiragino Mincho (iffm)
+  • Yu Gothic (iffyg)
+  • Yu Mincho (iffym)
 
 ### 1.0.9:
 
@@ -67,34 +76,38 @@ Mac users: Library/Application Support/Sublime Text/Packages
 | `12` | `isp` | `@include SP {${1}}` |
 | `13` | `itransform` | `@include transform_c(${1:content});` |
 | `14` | `itransition` | `@include transition_c(${1:content}, ${2:''});` |
+| `15` | `iffn` | `@include ffN;` |
+| `16` | `iffm` | `@include ffM;` |
+| `17` | `iffyg` | `@include ffYG;` |
+| `18` | `iffym` | `@include ffYM;` |
 
 
 ### JS Snippets
 |STT|Snippet|Output|
 |-------|-------|------|
-| `15` | `csl` | `console.log(${1});` |
-| `16` | `rf` | `return false;` |
-| `17` | `owlcarousel` | `$(".js-carousel")` |
-| `18` | `matchheight` | `$(".js-matchHeight").matchHeight();` |
-| `19` | `smoothscroll` | `$(".js-smoothscroll").smoothscroll();` |
+| `19` | `csl` | `console.log(${1});` |
+| `20` | `rf` | `return false;` |
+| `21` | `owlcarousel` | `$(".js-carousel")` |
+| `22` | `matchheight` | `$(".js-matchHeight").matchHeight();` |
+| `23` | `smoothscroll` | `$(".js-smoothscroll").smoothscroll();` |
 
 
 ### PHP Snippets
 |STT|Snippet|Output|
 |-------|-------|------|
-| `20` | `showerrors` | `ini_set('display_errors', 1); ini_set('display_startup_errors', 1); error_reporting(E_ALL); ?>` |
-| `21` | `performance` | `Insert code to measure website (php) performance` |
-| `22` | `prepr` | `echo '<pre>'; print_r($1); echo '</pre>'; ?>` |
-| `23` | `hidprint` | `echo '<!-- alive print '; print_r($1); echo ' -->';` |
-| `24` | `catchthatimage` | `catch_that_image($noimg = true);` |
-| `25` | `getfirstimage` | `get_first_image($content, $noimg = true);` |
-| `26` | `currentpageurl` | `curPageURL();` |
-| `27` | `cutstring` | `cutString($str, $len, $moreStr = "...");` |
-| `28` | `getarrurl` | `getArrUrl($_GET['args']);` |
-| `29` | `getcurl` | `get_curl($url);` |
-| `30` | `thumbcrop` | `thumbCrop($img, $w, $h, $zc=1, $a=false, $cc=false);` |
-| `31` | `uaclass` | `Insert ua.class code` |
-| `32` | `wpposttypearchive` | `wp_post_type_archive($post_type, $home_url="", $havecount=false);` |
+| `24` | `showerrors` | `ini_set('display_errors', 1); ini_set('display_startup_errors', 1); error_reporting(E_ALL); ?>` |
+| `25` | `performance` | `Insert code to measure website (php) performance` |
+| `26` | `prepr` | `echo '<pre>'; print_r($1); echo '</pre>'; ?>` |
+| `27` | `hidprint` | `echo '<!-- alive print '; print_r($1); echo ' -->';` |
+| `28` | `catchthatimage` | `catch_that_image($noimg = true);` |
+| `29` | `getfirstimage` | `get_first_image($content, $noimg = true);` |
+| `30` | `currentpageurl` | `curPageURL();` |
+| `31` | `cutstring` | `cutString($str, $len, $moreStr = "...");` |
+| `32` | `getarrurl` | `getArrUrl($_GET['args']);` |
+| `33` | `getcurl` | `get_curl($url);` |
+| `34` | `thumbcrop` | `thumbCrop($img, $w, $h, $zc=1, $a=false, $cc=false);` |
+| `35` | `uaclass` | `Insert ua.class code` |
+| `36` | `wpposttypearchive` | `wp_post_type_archive($post_type, $home_url="", $havecount=false);` |
 
 ## Keymaps
 

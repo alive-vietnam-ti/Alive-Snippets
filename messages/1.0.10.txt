@@ -5,7 +5,7 @@
 \____|__  /____/__| \_/  \___  > /_______  /___|  /__|   __/|   __/ \___  >__| /____  >
         \/                   \/          \/     \/   |__|   |__|        \/          \/ 
 
-[Install message] Thanks for installing Alive Snippets version v1.0.10!
+[Update message] Thanks for installing Alive Snippets version v1.0.10!
 
 Change logs:
 1.0.10:
